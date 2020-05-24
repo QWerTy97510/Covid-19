@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  background-color: #e7ecef;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.active {
+  border-bottom: 1px solid #e7ecef;
+}

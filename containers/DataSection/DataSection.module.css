@@ -1,0 +1,21 @@
+.DataSection {
+  margin: 20px 15px;
+  width: calc(100% - 30px);
+  background-color: #283845;
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+  .DataSection {
+    margin: 10px 15px;
+    width: auto;
+  }
+}
+
+@media (max-width: 414px) {
+  .DataSection {
+    margin: 10px 5px;
+    width: auto;
+  }
+}

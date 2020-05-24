@@ -1,0 +1,66 @@
+.TableHead tr th:hover {
+  cursor: pointer;
+}
+
+.TableHead {
+  width: 100%;
+  display: block;
+  margin: 5px 0px 0px;
+}
+
+.TableHead tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.TableHead tr th {
+  color: #e7ecef;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+  .TableHead {
+    width: 100%;
+    display: block;
+    margin: 5px 0px 0px;
+  }
+
+  .TableHead tr {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .TableHead tr th {
+    color: #e7ecef;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+@media (max-width: 414px) {
+  .TableHead {
+    width: 100%;
+    display: block;
+    margin: 5px 0px 0px;
+  }
+
+  .TableHead tr {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .TableHead tr th {
+    color: #e7ecef;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+}

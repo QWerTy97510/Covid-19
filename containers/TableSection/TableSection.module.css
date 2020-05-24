@@ -1,0 +1,53 @@
+.TableSection {
+  margin: 0px 15px 20px;
+  width: calc(100% - 30px);
+  background-color: #283845;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.TableSectionTable {
+  display: block;
+  margin: 0px 20px;
+  padding: 10px 0px;
+  width: calc(100% - 40px);
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+.ShowMoreButton {
+  padding: 10px 25px;
+  background-color: #23303a;
+  font-size: 0.9rem;
+  color: #d8dbdd;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin: 5px 0px 15px;
+  transition: background-color 0.3s;
+}
+
+.ShowMoreButton:hover {
+  cursor: pointer;
+  background-color: #2f404d;
+}
+
+@media (max-width: 414px) {
+  .TableSection {
+    margin: 10px 5px;
+    width: calc(100% - 10px);
+
+    border-radius: 10px;
+  }
+
+  .TableSectionTable {
+    margin: 0px 5px;
+    padding: 5px 0px;
+    width: calc(100% - 10px);
+  }
+
+  .ShowMoreButton {
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+}

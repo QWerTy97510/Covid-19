@@ -1,0 +1,69 @@
+.TableRow td:first-child:hover {
+  cursor: pointer;
+}
+
+.TableRow:hover {
+  background-color: #202c35;
+}
+
+.TableRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-radius: 8px;
+  width: 100%;
+  background-color: #23303a;
+  transition: background-color 0.3s;
+}
+
+.TableRow td {
+  color: #d8dbdd;
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;
+  border: none;
+  padding: 5px;
+}
+
+@media (max-width: 1024px) {
+  .TableRow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #23303a;
+    transition: background-color 0.3s;
+  }
+
+  .TableRow td {
+    color: #d8dbdd;
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    padding: 5px;
+  }
+}
+@media (max-width: 414px) {
+  .TableRow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #23303a;
+  }
+
+  .TableRow td {
+    color: #d8dbdd;
+    width: 100%;
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    padding: 2px;
+  }
+}

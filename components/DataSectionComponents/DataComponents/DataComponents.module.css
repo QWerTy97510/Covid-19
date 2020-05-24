@@ -1,0 +1,49 @@
+.DataComponents {
+  margin: 0px 20px;
+  width: clac(100% - 40px);
+  display: block;
+}
+
+.DataComponents h1 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 0px 10px;
+}
+
+@media (max-width: 1024px) {
+  .DataComponents {
+    margin: 0px 20px;
+    width: clac(100% - 40px);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 1rem;
+    grid-template-rows: repeat(3, auto);
+  }
+
+  .DataComponents h1 {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 0px 10px;
+  }
+}
+
+@media (max-width: 414px) {
+  .DataComponents {
+    margin: 0px 10px;
+    width: calc(100% - 20px);
+
+    display: block;
+  }
+
+  .DataComponents h1 {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 0px 10px;
+  }
+}
